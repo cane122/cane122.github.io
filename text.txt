@@ -1,37 +1,35 @@
-Hello! My name is Ognjen Čanković, and I am currently a student with a passion for programming.
+Hello! My name is Ognjen Čanković, and I am currently a student at the Faculty of Technical Sciences, Novi Sad with a passion for programming.
 My journey into the world of programming started with my love for video games.
-I discovered my fascination for technology while playing games and eventually began exploring how they worked behind the scenes.
+I have shown my interest in technology while playing games and eventually began exploring how they worked behind the scenes.
 
 Intrigued by the possibilities, I delved into learning programming on my own.
- I started by experimenting with inspect element and cheat engine on Facebook games,
- where I discovered the power of manipulating code to enhance gameplay.
-  This sparked my curiosity and motivated me to dive deeper into programming.
+ I started by experimenting with inspect element and cheat engines on Facebook games,
+ where I discovered the power of manipulating variables to boost my stats in combat.
+ This sparked my curiosity and motivated me to dive deeper into programming.
 
-As I continued my education, I honed my skills by building several non-working games,
+As I started my education, I experimented by building several unfinished games,
  exploring different programming languages, and experimenting with full-stack website development.
-  I have worked on various projects, collaborating with friends to create a 3D first-person shooter game using the Godot game engine.
-   We implemented basic movement mechanics, added music, models, and incorporated various functionalities to make the game engaging.
-
-Additionally, I have been involved in the development of a Java application called YACG,
- which simulates the popular card game Magic: The Gathering (MTG).
-  This project utilized JavaFX to create a visual interface and implemented features such as card drawing and basic gameplay mechanics.
-
-Alongside my programming endeavors, I have a strong affinity for strategic games like chess, MTG, Europa Universalis IV, Hearts of Iron IV, and Sid Meier's Civilization series.
- These games allow me to exercise my problem-solving skills and strategic thinking abilities.
+  I have worked on various projects many mandated by school, and collaborated with a friend to create a unfinished 3D first-person shooter game using the Godot game engine.
+   We implemented basic movement mechanics, added music, models, and incorporated various jokes, and had fun along the way.
+  I've dabbled in Java and worked on a Java application called YACG, which tried to simulate the popular card game Magic: The Gathering (MTG).
+   This project never got off the ground, but I learned how to create an interface and graphics using JavaFX.
 
 Furthermore, I am an avid learner and enjoy expanding my knowledge in various subjects.
- I regularly watch educational videos from sources like MIT OpenCourseWare and engage with topics such as physics,
-  mathematics, economics, geopolitics, and psychology, particularly the Jungian personality theory.
+ I regularly watch educational videos from sources like MIT OpenCourseWare
+  and engage with topics such as physics, mathematics, economics, geopolitics, and psychology
+  , particularly the Jungian personality theory.
 
-In terms of technical skills, I am proficient in languages like C, C++, git, and Java.
- I also have experience with Python and its libraries such as Pandas, NumPy, and Matplotlib for data analysis.
-  I have a solid understanding of the fundamentals of machine learning, including regression, classification, and working with various models.
-   Additionally, I am eager to learn and explore new programming languages and technologies.
+In terms of technical skills, I feel most familiar with languages like C, C++, and Java.
+I also have experience with Python and its libraries such as Pandas, NumPy, and Matplotlib.
+I'm still learning them which is a part of my bigger project to get a solid understanding of
+ machine learning, deep neural networks, LLMs, and finally Integrated Information Theory.
+ My goal is to get the best understanding of cognition as it is possible.
 
 Outside of programming, I have a keen interest in subjects like economics, geopolitics, and mathematics.
- I enjoy listening to lectures from prestigious institutions such as MIT and Harvard.
-  Moreover, I engage in recreational activities like playing MTG, lichess, and CS:GO,
-   as well as immersing myself in strategic games like Europa Universalis IV, Civilization series, and Hearts of Iron IV.
+ I enjoy listening to lectures from MIT and Harvard as well as from independent researchers and creators on youtube.
+ I feel like that is the only way to keep up with current information overload and to stay current at least if you don't like to read :).
+  Moreover, I like to play games like MTG, lichess, which take up most of my free time when I'm not doing anything.
+Also, I like to connect with my friends while playing strategy games like
+ Europa Universalis IV, Civilization series, and Hearts of Iron IV, Dungeons and Dragons.
 
-Thank you for considering my CV, and I am excited about the opportunity to contribute my programming skills,
- passion for technology, and diverse interests to future endeavors.
+I also won't shy away from physical activities when needed, going into the wilderness or playing some sports.
