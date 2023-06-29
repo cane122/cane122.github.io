@@ -1,0 +1,14 @@
+Zdravo! Zovem se Ognjen Čanković,
+ i trenutno sam student Fakulteta tehničkih nauka u Novom Sadu sa strašću za programiranjem. Moje putovanje u svet programiranja počelo je ljubavlju prema video igricama. Pokazao sam interesovanje za tehnologiju dok sam igrao igrice i na kraju sam počeo da istražujem kako oni rade iza kulisa.
+
+Zaintrigiran mogućnostima, sam se upustio u učenje programiranja. Počeo sam tako što sam eksperimentisao sa inspekcijom elemenata i cheat engine-ima na Facebook igrama, gde sam otkrio moć manipulacije varijablama kako bih povećao svoju statistiku u borbi. Ovo je podstaklo moju radoznalost i motivisalo me da dublje zaronim u programiranje.
+
+Dok sam počinjao svoje obrazovanje, eksperimentisao sam tako što sam napravio nekoliko nedovršenih igara, istražujući različite programske jezike i eksperimentišući sa razvojem veb sajtova u celosti. Radio sam na raznim projektima koji su mnogi po nalogu škole, i sarađivao sa prijateljem na kreiranju nedovršene 3D igre pucačine u prvom licu koristeći Godot game engine. Implementirali smo osnovnu mehaniku pokreta, dodali muziku, modele, ugradili razne šale i usput se zabavljali. Bavio sam se Javom i radio na Java aplikaciji zvanoj IACG, koja je pokušala da simulira popularnu kartašku igru Magic: The Gathering (MTG). Ovaj projekat nikada nije pokrenut, ali sam naučio kako da kreiram interfejs i grafiku koristeći JavaFKS.
+
+Štaviše, ja sam strastveni učenik i uživam u širenju znanja iz raznih predmeta. Redovno gledam obrazovne video zapise iz izvora kao što je MIT OpenCourseVare i bavim se temama kao što su fizika, matematika, ekonomija, geopolitika i psihologija, posebno Jungova teorija ličnosti.
+
+Što se tiče tehničkih veština, najviše se osećam upoznati sa jezicima kao što su C, C++ i Java. Takođe imam iskustva sa Pithon-om i njegovim bibliotekama kao što su Pandas, NumPi i Matplotlib. Još uvek ih učim, što je deo mog većeg projekta da dobijem solidno razumevanje mašinskog učenja, dubokih neuronskih mreža, LLM-a i konačno integrisane teorije informacija. Moj cilj je da dobijem najbolje moguće razumevanje spoznaje.
+
+Izvan programiranja, imam veliko interesovanje za predmete kao što su matematika, fizika, ekonomija i geopolitika. Uživam da slušam predavanja sa MIT-a i Harvarda, kao i od nezavisnih istraživača i kreatora na ioutube-u. Osećam da je to jedini način da budete u toku sa trenutnim preopterećenjem informacijama i da ostanete u toku barem ako ne volite da čitate :). Štaviše, volim da igram igrice kao što su MTG, lichess, koje mi oduzimaju većinu slobodnog vremena kada ništa ne radim. Takođe, volim da se povezujem sa svojim prijateljima dok igram strateške igre kao što su Evropa Universalis IV, serija Civilization, i Hearts of Iron IV, Dungeons and Dragons.
+
+Takođe neću bežati od fizičkih aktivnosti kada je potrebno, odlaska u divljinu ili bavljenja nekim sportom.

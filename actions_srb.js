@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', () => {
     const textContainer = document.getElementById('text-container');
     
-    fetch('text.txt')
+    fetch('text_srb.txt')
         .then(response => response.text())
         .then(data => {
             const formattedText = formatText(data); 
