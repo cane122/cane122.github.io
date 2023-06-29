@@ -1,6 +1,13 @@
-
+image {
+    position: absolute;
+    top: 50%;
+    right: 0;
+   transform: translate(0, -50%);
+}
 body {
     font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: flex-end;
 }
 
 h1 {
