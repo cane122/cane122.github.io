@@ -23,9 +23,19 @@ window.addEventListener('DOMContentLoaded', () => {
     fetch('text.txt')
         .then(response => response.text())
         .then(data => {
-            textContainer.textContent = data;
+            const formattedText = formatText(data); 
+            textContainer.innerHTML = formattedText;
         })
         .catch(error => {
             textContainer.textContent = 'Error: ' + error;
         });
 });
+
+function formatText(text) {
+    // Replace line breaks with HTML line breaks
+    const formattedText = text.replace(/\n/g, '<br>');
+  
+    // Add a class and center alignment to the text container
+    return `<div class="formatted-text" style="text-align: center;">${formattedText}</div>`;
+  }
+  
