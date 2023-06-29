@@ -2,11 +2,16 @@
 <html>
   <head></head>
   <body>
-    <canvas id="life" width="500" height="500"></canvas>
+    <canvas id="life"></canvas>
 
     <script>
       const canvas = document.getElementById("life");
       const context = canvas.getContext("2d");
+
+      const resizeCanvas = () => {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+      };
 
       const draw = (x, y, c, s) => {
         context.fillStyle = c;
@@ -19,7 +24,7 @@
       };
 
       const random = () => {
-        return Math.random() * 400 + 50;
+        return Math.random() * (canvas.width - 100) + 50;
       };
 
       const create = (number, color) => {
@@ -41,37 +46,61 @@
             const dx = a.x - b.x;
             const dy = a.y - b.y;
             const d = Math.sqrt(dx * dx + dy * dy);
-            if (d > 0 && d<80) {
+            if (d > 0 && d < 160) {
               const F = (g * 1) / d;
               fx += F * dx;
               fy += F * dy;
             }
           }
-          a.vx = (a.vx + fx)*0.5;
-          a.vy = (a.vy + fy)*0.5;
+          a.vx = (a.vx + fx) * 0.5;
+          a.vy = (a.vy + fy) * 0.5;
           a.x += a.vx;
           a.y += a.vy;
-          if(a.x <= 0 || a.x >= 500){ a.vx *= -1}
-          if(a.y <= 0 || a.y >= 500){ a.vy *= -1}
-
+          if (a.x <= 0 || a.x >= canvas.width) {
+            a.vx *= -1;
+          }
+          if (a.y <= 0 || a.y >= canvas.height) {
+            a.vy *= -1;
+          }
         }
       };
 
-      const yellow = create(200, "yellow");
-      const red = create(200,"red");
-
       const update = () => {
-        rule(red, red, -0.1);
+        rule(red, red, 0.1);
         rule(red, yellow, -0.01);
         rule(yellow, red, 0.01);
+        rule(yellow, green, 0.2);
+        rule(red, green, - 0.5)
+        greenPlayer = green[0];
+        // Interaction with the green particle
+        const mouseX = event.clientX - canvas.offsetLeft;
+        const mouseY = event.clientY - canvas.offsetTop;
+        greenPlayer.vx = (mouseX - greenPlayer.x) * 0.02;
+        greenPlayer.vy = (mouseY - greenPlayer.y) * 0.02;
+        greenPlayer.x += greenPlayer.vx;
+        greenPlayer.y += greenPlayer.vy;
+
         context.clearRect(0, 0, canvas.width, canvas.height);
         draw(0, 0, "black", canvas.width);
         for (let i = 0; i < particles.length; i++) {
           draw(particles[i].x, particles[i].y, particles[i].color, 5);
         }
+        draw(greenPlayer.x, greenPlayer.y, greenPlayer.color, 5);
         requestAnimationFrame(update);
       };
 
+      // Resize canvas on window resize
+      window.addEventListener("resize", resizeCanvas);
+
+      // Initialize canvas size
+      resizeCanvas();
+
+      const yellow = create(50, "yellow");
+      const red = create(10, "red");
+      const green = create(1, "green");
+
+      // Start animation
+      canvas.addEventListener("mousemove", update);
       update();
     </script>
   </body>
