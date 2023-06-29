@@ -1,3 +1,78 @@
-<p>RADI ZA SADA
-    
-</p>
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <canvas id="life" width="500" height="500"></canvas>
+
+    <script>
+      const canvas = document.getElementById("life");
+      const context = canvas.getContext("2d");
+
+      const draw = (x, y, c, s) => {
+        context.fillStyle = c;
+        context.fillRect(x, y, s, s);
+      };
+
+      const particles = [];
+      const createParticle = (x, y, c) => {
+        return { x, y, vx: 0, vy: 0, color: c };
+      };
+
+      const random = () => {
+        return Math.random() * 400 + 50;
+      };
+
+      const create = (number, color) => {
+        const group = [];
+        for (let i = 0; i < number; i++) {
+          group.push(createParticle(random(), random(), color));
+          particles.push(group[i]);
+        }
+        return group;
+      };
+
+      const rule = (par1, par2, g) => {
+        for (let i = 0; i < par1.length; i++) {
+          const a = par1[i];
+          let fx = 0;
+          let fy = 0;
+          for (let j = 0; j < par2.length; j++) {
+            const b = par2[j];
+            const dx = a.x - b.x;
+            const dy = a.y - b.y;
+            const d = Math.sqrt(dx * dx + dy * dy);
+            if (d > 0 && d<80) {
+              const F = (g * 1) / d;
+              fx += F * dx;
+              fy += F * dy;
+            }
+          }
+          a.vx = (a.vx + fx)*0.5;
+          a.vy = (a.vy + fy)*0.5;
+          a.x += a.vx;
+          a.y += a.vy;
+          if(a.x <= 0 || a.x >= 500){ a.vx *= -1}
+          if(a.y <= 0 || a.y >= 500){ a.vy *= -1}
+
+        }
+      };
+
+      const yellow = create(200, "yellow");
+      const red = create(200,"red");
+
+      const update = () => {
+        rule(red, red, -0.1);
+        rule(red, yellow, -0.01);
+        rule(yellow, red, 0.01);
+        context.clearRect(0, 0, canvas.width, canvas.height);
+        draw(0, 0, "black", canvas.width);
+        for (let i = 0; i < particles.length; i++) {
+          draw(particles[i].x, particles[i].y, particles[i].color, 5);
+        }
+        requestAnimationFrame(update);
+      };
+
+      update();
+    </script>
+  </body>
+</html>
