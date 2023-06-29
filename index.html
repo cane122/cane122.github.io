@@ -1,71 +1,64 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My CV</title>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
-    />
-    <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
-    <script src="actions.js"></script>
-  </head>
-  <body>
-      <h1>My CV</h1>
-      <ul>
-        <li><a href="#cv">CV</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="game/game.html">Just a Game to keep you occupied</a></li>
-        <li><a href="https://github.com/cane122" target="_blank">GitHub</a></li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/ognjen-cankovic-739815134/"
-            target="_blank"
-            >LinkedIn</a
-          >
-        </li>
-      </ul>
-     
-      <img src="slika.jpg" alt="Profile Image" class="profile-image" />
+<head>
+  <title>My CV</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="calendar.css" />
+</head>
+<body>
+  <h1>My CV</h1>
+  <ul>
+    <li><a href="#cv">CV</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="game/game.html">Just a Game to keep you occupied</a></li>
+    <li><a href="https://github.com/cane122" target="_blank">GitHub</a></li>
+    <li><a href="https://www.linkedin.com/in/ognjen-cankovic-739815134/" target="_blank">LinkedIn</a></li>
+  </ul>
 
-    <hr />
-    <div class="github-activity">
-      <h2>GitHub Activity</h2>
-      <div class="calendar">
-        <!-- Loading stuff -->
-        Loading the data just for you.
-      </div>
-  
-      <script>
-        new GitHubCalendar(".calendar", "cane122");
-      </script>
+  <img src="slika.jpg" alt="Profile Image" class="profile-image" />
+
+  <hr />
+
+  <div class="github-activity">
+    <h2>GitHub Activity</h2>
+    <div class="calendar">
+      <!-- Loading stuff -->
+      Loading the data just for you.
     </div>
-    <hr />
-    <section id="about">
-      <h1>About me</h1>
-      <div class="about-section">
-        <div id="text-container"></div>
-      </div>
-    </section>
-    <hr />
-    <section id="cv">
-      <h2>CV</h2>
-      <embed
-        src="CV.docx.pdf"
-        width="66%"
-        height="800px"
-        type="application/pdf"
-      />
-    </section>
-    <hr />
-    <section id="random-game">
-      <h2>Random Games</h2>
-      <li><a href="game/game.html">Just a Game to keep you occupied</a></li>
-    </section>
+  </div>
 
-    <hr />
+  <hr />
 
-    
-  </body>
+  <section id="about">
+    <h1>About me</h1>
+    <div class="about-section">
+      <div id="text-container"></div>
+    </div>
+  </section>
+
+  <hr />
+
+  <section id="cv">
+    <h2>CV</h2>
+    <embed src="CV.docx.pdf" width="66%" height="800px" type="application/pdf" />
+  </section>
+
+  <hr />
+
+  <section id="random-game">
+    <h2>Random Games</h2>
+    <li><a href="game/game.html">Just a Game to keep you occupied</a></li>
+  </section>
+
+  <hr />
+
+  <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
+  <script src="actions.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      new GitHubCalendar(".calendar", "cane122");
+    });
+  </script>
+</body>
 </html>
