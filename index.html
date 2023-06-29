@@ -3,41 +3,7 @@
 <head>
     <title>My CV</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        h1 {
-            color: #333;
-            text-align: center;
-        }
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        li {
-            display: inline-block;
-            margin: 10px;
-        }
-        a {
-            text-decoration: none;
-            color: #333;
-        }
-        .github-activity {
-            margin-top: 20px;
-            text-align: center;
-        }
-        table {
-            margin: 0 auto;
-            border-collapse: collapse;
-            width: 80%;
-        }
-        th, td {
-            padding: 8px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-        }
+        /* CSS styles */
     </style>
 </head>
 <body>
@@ -64,7 +30,10 @@
 
     <section id="stupid-game">
         <h2>Stupid Game</h2>
-        <!-- Add your stupid game content here -->
+        <p>Try to guess the number between 1 and 100:</p>
+        <input type="number" id="guessInput">
+        <button onclick="checkGuess()">Submit</button>
+        <p id="guessResult"></p>
     </section>
 
     <hr>
@@ -73,6 +42,27 @@
         <h2>GitHub Activity</h2>
         
     </div>
+
+    <script>
+        function checkGuess() {
+            var randomNumber = Math.floor(Math.random() * 100) + 1;
+            var guessInput = document.getElementById("guessInput");
+            var guessResult = document.getElementById("guessResult");
+
+            var userGuess = parseInt(guessInput.value);
+            if (isNaN(userGuess)) {
+                guessResult.textContent = "Invalid input. Please enter a number.";
+            } else {
+                if (userGuess === randomNumber) {
+                    guessResult.textContent = "Congratulations! You guessed the correct number.";
+                } else if (userGuess < randomNumber) {
+                    guessResult.textContent = "Too low. Try again!";
+                } else {
+                    guessResult.textContent = "Too high. Try again!";
+                }
+            }
+        }
+    </script>
 </body>
 </html>
 
