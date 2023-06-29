@@ -4,10 +4,14 @@
     <title>My CV</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
+    />
+    <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
     <script src="actions.js"></script>
   </head>
   <body>
-    <div id="header">
       <h1>My CV</h1>
       <ul>
         <li><a href="#cv">CV</a></li>
@@ -15,16 +19,27 @@
         <li><a href="game/game.html">Just a Game to keep you occupied</a></li>
         <li><a href="https://github.com/cane122" target="_blank">GitHub</a></li>
         <li>
-          <a href="https://www.linkedin.com/in/ognjen-cankovic-739815134/" target="_blank"
+          <a
+            href="https://www.linkedin.com/in/ognjen-cankovic-739815134/"
+            target="_blank"
             >LinkedIn</a
           >
         </li>
       </ul>
-      <img
-        src="slika.jpg"
-        alt="Profile Image"
-        class="profile-image"
-      />
+     
+      <img src="slika.jpg" alt="Profile Image" class="profile-image" />
+
+    <hr />
+    <div class="github-activity">
+      <h2>GitHub Activity</h2>
+      <div class="calendar">
+        <!-- Loading stuff -->
+        Loading the data just for you.
+      </div>
+  
+      <script>
+        new GitHubCalendar(".calendar", "cane122");
+      </script>
     </div>
     <hr />
     <section id="about">
@@ -36,22 +51,21 @@
     <hr />
     <section id="cv">
       <h2>CV</h2>
-      <embed src="CV.docx.pdf" width="66%" height="800px" type="application/pdf" />
+      <embed
+        src="CV.docx.pdf"
+        width="66%"
+        height="800px"
+        type="application/pdf"
+      />
     </section>
     <hr />
     <section id="random-game">
-      <h2>Random Game</h2>
-      <p>Try to guess the number between 1 and 100:</p>
-      <input type="number" id="guessInput" />
-      <button onclick="checkGuess()">Submit</button>
-      <p id="guessResult"></p>
+      <h2>Random Games</h2>
       <li><a href="game/game.html">Just a Game to keep you occupied</a></li>
     </section>
 
     <hr />
 
-    <div class="github-activity">
-      <h2>GitHub Activity</h2>
-    </div>
+    
   </body>
 </html>
