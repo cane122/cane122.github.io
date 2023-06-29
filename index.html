@@ -2,9 +2,8 @@
 <html>
 <head>
     <title>My CV</title>
-    <style>
-        /* CSS styles */
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="actions.js"></script>
 </head>
 <body>
     <h1>My CV</h1>
@@ -43,26 +42,6 @@
         
     </div>
 
-    <script>
-        function checkGuess() {
-            var randomNumber = Math.floor(Math.random() * 100) + 1;
-            var guessInput = document.getElementById("guessInput");
-            var guessResult = document.getElementById("guessResult");
-
-            var userGuess = parseInt(guessInput.value);
-            if (isNaN(userGuess)) {
-                guessResult.textContent = "Invalid input. Please enter a number.";
-            } else {
-                if (userGuess === randomNumber) {
-                    guessResult.textContent = "Congratulations! You guessed the correct number.";
-                } else if (userGuess < randomNumber) {
-                    guessResult.textContent = "Too low. Try again!";
-                } else {
-                    guessResult.textContent = "Too high. Try again!";
-                }
-            }
-        }
-    </script>
 </body>
 </html>
 
