@@ -36,6 +36,6 @@ function formatText(text) {
     const formattedText = text.replace(/\n/g, '<br>');
   
     // Add a class and center alignment to the text container
-    return `<div class="formatted-text" style="text-align: center;">${formattedText}</div>`;
+    return `<div class="formatted-text" style="text-align: justify; text-align-last: center;width:32%;margin:0 auto;">${formattedText}</div>`;
   }
   

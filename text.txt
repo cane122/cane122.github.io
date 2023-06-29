@@ -1,35 +1,14 @@
-Hello! My name is Ognjen Čanković, and I am currently a student at the Faculty of Technical Sciences, Novi Sad with a passion for programming.
-My journey into the world of programming started with my love for video games.
-I have shown my interest in technology while playing games and eventually began exploring how they worked behind the scenes.
+Hello! My name is Ognjen Čanković,
+ and I am currently a student at the Faculty of Technical Sciences, Novi Sad with a passion for programming. My journey into the world of programming started with my love for video games. I have shown my interest in technology while playing games and eventually began exploring how they worked behind the scenes.
 
-Intrigued by the possibilities, I delved into learning programming on my own.
- I started by experimenting with inspect element and cheat engines on Facebook games,
- where I discovered the power of manipulating variables to boost my stats in combat.
- This sparked my curiosity and motivated me to dive deeper into programming.
+Intrigued by the possibilities, I delved into learning programming on my own. I started by experimenting with inspect element and cheat engines on Facebook games, where I discovered the power of manipulating variables to boost my stats in combat. This sparked my curiosity and motivated me to dive deeper into programming.
 
-As I started my education, I experimented by building several unfinished games,
- exploring different programming languages, and experimenting with full-stack website development.
-  I have worked on various projects many mandated by school, and collaborated with a friend to create a unfinished 3D first-person shooter game using the Godot game engine.
-   We implemented basic movement mechanics, added music, models, and incorporated various jokes, and had fun along the way.
-  I've dabbled in Java and worked on a Java application called YACG, which tried to simulate the popular card game Magic: The Gathering (MTG).
-   This project never got off the ground, but I learned how to create an interface and graphics using JavaFX.
+As I started my education, I experimented by building several unfinished games, exploring different programming languages, and experimenting with full-stack website development. I have worked on various projects many mandated by school, and collaborated with a friend to create a unfinished 3D first-person shooter game using the Godot game engine. We implemented basic movement mechanics, added music, models, and incorporated various jokes, and had fun along the way. I've dabbled in Java and worked on a Java application called YACG, which tried to simulate the popular card game Magic: The Gathering (MTG). This project never got off the ground, but I learned how to create an interface and graphics using JavaFX.
 
-Furthermore, I am an avid learner and enjoy expanding my knowledge in various subjects.
- I regularly watch educational videos from sources like MIT OpenCourseWare
-  and engage with topics such as physics, mathematics, economics, geopolitics, and psychology
-  , particularly the Jungian personality theory.
+Furthermore, I am an avid learner and enjoy expanding my knowledge in various subjects. I regularly watch educational videos from sources like MIT OpenCourseWare and engage with topics such as physics, mathematics, economics, geopolitics, and psychology, particularly the Jungian personality theory.
 
-In terms of technical skills, I feel most familiar with languages like C, C++, and Java.
-I also have experience with Python and its libraries such as Pandas, NumPy, and Matplotlib.
-I'm still learning them which is a part of my bigger project to get a solid understanding of
- machine learning, deep neural networks, LLMs, and finally Integrated Information Theory.
- My goal is to get the best understanding of cognition as it is possible.
+In terms of technical skills, I feel most familiar with languages like C, C++, and Java. I also have experience with Python and its libraries such as Pandas, NumPy, and Matplotlib. I'm still learning them which is a part of my bigger project to get a solid understanding of machine learning, deep neural networks, LLMs, and finally Integrated Information Theory. My goal is to get the best understanding of cognition as it is possible.
 
-Outside of programming, I have a keen interest in subjects like economics, geopolitics, and mathematics.
- I enjoy listening to lectures from MIT and Harvard as well as from independent researchers and creators on youtube.
- I feel like that is the only way to keep up with current information overload and to stay current at least if you don't like to read :).
-  Moreover, I like to play games like MTG, lichess, which take up most of my free time when I'm not doing anything.
-Also, I like to connect with my friends while playing strategy games like
- Europa Universalis IV, Civilization series, and Hearts of Iron IV, Dungeons and Dragons.
+Outside of programming, I have a keen interest in subjects like economics, geopolitics, and mathematics. I enjoy listening to lectures from MIT and Harvard as well as from independent researchers and creators on youtube. I feel like that is the only way to keep up with current information overload and to stay current at least if you don't like to read :). Moreover, I like to play games like MTG, lichess, which take up most of my free time when I'm not doing anything. Also, I like to connect with my friends while playing strategy games like Europa Universalis IV, Civilization series, and Hearts of Iron IV, Dungeons and Dragons.
 
 I also won't shy away from physical activities when needed, going into the wilderness or playing some sports.
