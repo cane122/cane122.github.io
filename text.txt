@@ -1,0 +1,17 @@
+Hello! My name is Ognjen Čanković, and I am currently a student with a passion for programming. My journey into the world of programming started with my love for video games. I discovered my fascination for technology while playing games and eventually began exploring how they worked behind the scenes.
+
+Intrigued by the possibilities, I delved into learning programming on my own. I started by experimenting with inspect element and cheat engines on Facebook games, where I discovered the power of manipulating code to enhance gameplay. This sparked my curiosity and motivated me to dive deeper into programming.
+
+As I continued my education, I honed my skills by building several non-working games, exploring different programming languages, and experimenting with full-stack website development. I have worked on various projects, collaborating with friends to create a 3D first-person shooter game using the Godot game engine. We implemented basic movement mechanics, added music, models, and incorporated various functionalities to make the game engaging.
+
+Additionally, I have been involved in the development of a Java application called YACG, which simulates the popular card game Magic: The Gathering (MTG). This project utilized JavaFX to create a visual interface and implemented features such as card drawing and basic gameplay mechanics.
+
+Alongside my programming endeavors, I have a strong affinity for strategic games like chess, MTG, Europa Universalis IV, Hearts of Iron IV, and Sid Meier's Civilization series. These games allow me to exercise my problem-solving skills and strategic thinking abilities.
+
+Furthermore, I am an avid learner and enjoy expanding my knowledge in various subjects. I regularly watch educational videos from sources like MIT OpenCourseWare and engage with topics such as physics, mathematics, economics, geopolitics, and psychology, particularly the Jungian personality theory.
+
+In terms of technical skills, I am proficient in languages like C, C++, git, and Java. I also have experience with Python and its libraries such as Pandas, NumPy, and Matplotlib for data analysis. I have a solid understanding of the fundamentals of machine learning, including regression, classification, and working with various models. Additionally, I am eager to learn and explore new programming languages and technologies.
+
+Outside of programming, I have a keen interest in subjects like economics, geopolitics, and mathematics. I enjoy listening to lectures from prestigious institutions such as MIT and Harvard. Moreover, I engage in recreational activities like playing MTG, lichess, and CS:GO, as well as immersing myself in strategic games like Europa Universalis IV, Civilization series, and Hearts of Iron IV.
+
+Thank you for considering my CV, and I am excited about the opportunity to contribute my programming skills, passion for technology, and diverse interests to future endeavors.

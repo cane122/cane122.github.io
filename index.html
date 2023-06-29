@@ -1,48 +1,58 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>My CV</title>
+    <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="actions.js"></script>
-</head>
-<body>
+  </head>
+  <body>
+    <div id="header">
     <h1>My CV</h1>
     <ul>
-        <li><a href="#cv">CV</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#random-game">Just a Game to keep you occupied</a></li>
-        <li><a href="https://github.com/cane122">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/ognjen-cankovic-739815134/">LinkedIn</a></li>
+      <li><a href="#cv">CV</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#random-game">Just a Game to keep you occupied</a></li>
+      <li><a href="https://github.com/cane122">GitHub</a></li>
+      <li>
+        <a href="https://www.linkedin.com/in/ognjen-cankovic-739815134/"
+          >LinkedIn</a
+        >
+      </li>
     </ul>
-    <img src="slika.jpg" alt="Profile Image" class="profile-image" width="25%">
-    <hr>
+    <img
+      src="slika.jpg"
+      alt="Profile Image"
+      class="profile-image"
+      width="25%"
+    />
+  </div>
+    <hr />
 
     <section id="cv">
-        <h2>CV</h2>
-        <embed src="CV.docx.pdf" width="500" height="700" type="application/pdf">
-
+      <h2>CV</h2>
+      <embed src="CV.docx.pdf" width="66%" type="application/pdf" />
     </section>
 
     <section id="about">
-        <h2>About</h2>
-        <!-- Add your about content here -->
+      <h1>About ME</h1>
+      <div class="about-section">
+        <div id="text-container"></div>
+      </div>
     </section>
 
     <section id="random-game">
-        <h2>Random Game</h2>
-        <p>Try to guess the number between 1 and 100:</p>
-        <input type="number" id="guessInput">
-        <button onclick="checkGuess()">Submit</button>
-        <p id="guessResult"></p>
+      <h2>Random Game</h2>
+      <p>Try to guess the number between 1 and 100:</p>
+      <input type="number" id="guessInput" />
+      <button onclick="checkGuess()">Submit</button>
+      <p id="guessResult"></p>
     </section>
 
-    <hr>
+    <hr />
 
     <div class="github-activity">
-        <h2>GitHub Activity</h2>
-        
+      <h2>GitHub Activity</h2>
     </div>
-
-</body>
+  </body>
 </html>
-

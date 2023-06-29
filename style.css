@@ -6,8 +6,6 @@ image {
 }
 body {
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: flex-end;
 }
 
 h1 {
@@ -31,7 +29,10 @@ a {
     text-decoration: none;
     color: #333;
 }
-
+#{
+    display: flex;
+    justify-content: flex-end;
+}
 .github-activity {
     margin-top: 20px;
     text-align: center;
